@@ -1,0 +1,120 @@
+Basic reset
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../assets/images/login-bg-umg.jpg);
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    color: #C0C0C0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    width: 100%;
+    max-width: 450px;
+}
+
+
+.login-box {
+    backdrop-filter: blur(20px);
+    border-radius: 20px;
+    padding: 20px;
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    color: #B76E79;
+    text-align: center;
+    margin-top: 10px;
+    font-weight: 300;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+input {
+    padding: 12px;
+    margin: 10px;
+    border: 1px solid #C0C0C0;
+    border-radius: 15px;
+    font-size: 16px;
+    width: 90%;
+}
+
+button {
+    padding: 12px;
+    background-color: #9a646f;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #dc775e;
+}
+
+/* Create Account */
+.create-account {
+    margin-top: 20px;
+    text-align: center;
+   
+}
+
+.create-account a {
+    color: #9a646f;
+    font-weight: 600;
+}
+
+.create-account p{
+    color: black;
+}
+
+.messageDiv{
+    box-shadow: 0 0px 15px rgba(0, 0, 0, 0.4);
+    color: rgb(2, 1, 1);
+    padding: 10px;
+    width: 90%;
+    margin: 10px;
+    margin-bottom: 20px;
+    height: auto;
+    border-radius: 20px;
+    font-size: 1rem;
+    text-align: center;
+}
+
+/* Media Queries */
+@media (min-width: 768px) {
+    .container {
+        max-width: 500px;
+        
+    }
+    
+}
