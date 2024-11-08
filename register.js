@@ -32,7 +32,7 @@ function showMessage(message, divId) {
 }
 
 // Determine if the current page is for registration or login
-const isRegisterPage = window.location.pathname.includes("register.html");
+const isRegisterPage = window.location.pathname.includes("index.html");
 
 if (isRegisterPage) {
     // Handle registration process
